@@ -1,4 +1,5 @@
 //lambda expression in the ArrayList's forEach() method to print every item in the list:
+
 import java.util.ArrayList;
 
 public class Main {
