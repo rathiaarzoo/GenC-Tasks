@@ -2,7 +2,7 @@
 
 import java.util.ArrayList;
 
-public class Main {
+public class lambda1 {
   public static void main(String[] args) {
     ArrayList<Integer> numbers = new ArrayList<Integer>();
     numbers.add(5);
@@ -17,7 +17,7 @@ public class Main {
 import java.util.ArrayList;
 import java.util.function.Consumer;
 
-public class Main {
+public class lambda2 {
   public static void main(String[] args) {
     ArrayList<Integer> numbers = new ArrayList<Integer>();
     numbers.add(5);
@@ -34,7 +34,7 @@ interface StringFunction {
   String run(String str);
 }
 
-public class Main {
+public class lambda3 {
   public static void main(String[] args) {
     StringFunction exclaim = (s) -> s + "!";
     StringFunction ask = (s) -> s + "?";
